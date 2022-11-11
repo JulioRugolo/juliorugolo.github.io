@@ -1,0 +1,97 @@
+body{
+    width: 70%;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#titulo-portfolio{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #903;
+}
+
+/* CSS MENU */
+
+.menu-align{
+    width: 100%;
+    text-align: center;
+}
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+menu {
+    margin: auto;
+    padding:auto;
+}
+ 
+#botao {
+    list-style: none; 
+    margin: auto;
+    display: inline;
+    
+}
+
+li a {
+    padding: 10px 10px; 
+    margin:auto;
+    border: 0px solid #f00; 
+    background: #903;
+    text-decoration: none;
+    color:#FFF;
+    /* cantos arredondados */
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:10px;
+}
+li a:hover {
+    background: #CCC;
+    color: #000; 
+    border-color: #000;
+}
+/* CSS MENU END */ 
+
+#me{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #903;
+    border: #903;
+    border-radius: 100px;
+}
+
+/* INFO CSS */
+.info{
+    display: flex;
+    flex-flow: row wrap;
+    color: #903;
+    background-color: #CCC;
+}
+.info-titulo{
+    font-size: 30px;
+    margin-left: auto;
+}
+.social{
+    font-size: 30px;
+    margin-left: auto;
+    text-align: center;
+}
+
+.network{
+    font-size: 30px;
+    margin-left: auto;
+    text-align: center;
+}
+
+
+/* END INFO CSS */
