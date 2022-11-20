@@ -1,104 +1,127 @@
-body{
-    width: 90%;
-    font-size: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #CCC;
-}
-#titulo-portfolio{
-    width: 100%;
-    text-align: center;
-    font-size: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    color: #903;
-}
-
-/* CSS MENU */
-
-.menu-align{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 *{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
+    margin: 0;
+    padding: 0;
 }
 
-menu {
-    margin: auto;
-    padding:auto;
-}
- 
-#botao {
-    list-style: none; 
-    margin: auto;
-    display: inline;
-    
+.header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 20px;
+    background-color: rgb(64, 64, 64);
+    justify-content: space-between;
+    padding: 15px;
 }
 
-li a {
-    padding: 10px 10px; 
-    margin:auto;
-    border: 0px solid #f00; 
-    background: #903;
+.header-name{
+    display: flex;
+    color: white;
+    margin-left: 80px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.nav ul{
+    display: flex;
+    margin-right: 80px;
+    list-style: none;
+    gap: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.nav-btn{
     text-decoration: none;
-    color:#FFF;
-    /* cantos arredondados */
-    -webkit-border-radius:5px;
-    -moz-border-radius:5px;
-    border-radius:10px;
+    color: white;
 }
-li a:hover {
-    background: #CCC;
-    color: #000; 
-    border-color: #000;
-}
-/* CSS MENU END */ 
 
-#me{
+.nav-btn:hover{
+    color: rgb(248, 55, 55);
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
     width: 50%;
-    height: 50%;
-    display: flex;
-    flex-flow: row wrap;
-    text-align: center;
-    font-size: 30px;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+.julio-img{
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.about-title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+
+.about-subtitle{
+    font-weight: 800;
+    color: red;
+    margin-bottom: 30px;
+}
+
+.invite{
     margin-top: 50px;
-    color: #903;
-    border: #903;
-    border-radius: 100px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    color: red;
 }
 
-/* INFO CSS */
-.info{
-    display: flex;
-    flex-flow: row wrap;
-    color: #903;
-    background-color: #CCC;
-}
-.info-titulo{
-    font-size: 30px;
-    margin-left: auto;
-}
 .social{
-    font-size: 30px;
-    margin-left: auto;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.link{
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.linkedin{
+    color: #0077b5
+}
+
+.linkedin:hover{
+    color: #004a72;
+}
+
+.facebook{
+    color: #0077b5
+}
+
+.facebook:hover{
+    color: #004a72;
+}
+
+.instagram{
+    color: #e4405f
+}
+
+.instagram:hover{
+    color: #992a3e;
+}
+
+.github{
+    color: black
+}
+
+.github:hover{
+    color: rgb(144, 142, 142);
+}
+
+.traits{
+    margin-top: 50px;
+    justify-content: center;
     text-align: center;
+    background-color: beige;
 }
-
-.network{
-    font-size: 30px;
-    margin-left: auto;
-    text-align: center;
-}
-
-h2{
-    font-weight: bold;
-}
-
-/* END INFO CSS */
