@@ -73,10 +73,11 @@
     margin-top: 50px;
     margin-bottom: 10px;
     font-weight: bolder;
-    color: red;
+    color: rgb(0, 0, 0);
 }
 
 .social{
+    margin-bottom: 20px;
     display: flex;
     gap: 15px;
     justify-content: center;
@@ -120,8 +121,47 @@
 }
 
 .traits{
-    margin-top: 50px;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    background-color: beige;
+    margin: 0 auto;
+    background-color: rgb(193, 193, 193);
+}
+
+.traits h1{
+    margin-top: 20px;
+}
+
+.traits-content{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.qualities ul, .flaws ul{
+    list-style: none;
+    line-height: 25px;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0px;
+    background-color: rgb(64, 64, 64);
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+#footer a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+#footer a:hover{
+    color: rgb(248, 55, 55);
 }
