@@ -165,3 +165,17 @@
 #footer a:hover{
     color: rgb(248, 55, 55);
 }
+
+@media only screen and (max-width: 600px) {
+
+.header-name, .nav ul{
+    font-size: 15px;
+    margin-left: 10px; 
+    margin-right: 30px;
+  }
+
+.traits{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+}
