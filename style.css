@@ -130,6 +130,7 @@
 
 .traits h1{
     margin-top: 20px;
+
 }
 
 .traits-content{
@@ -137,14 +138,15 @@
     flex-direction: row;
     text-align: center;
     justify-content: center;
-    gap: 120px;
+    gap: 100px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .qualities ul, .flaws ul{
     list-style: none;
     line-height: 25px;
+    margin-bottom: 20px;
 }
 
 #footer{
@@ -154,16 +156,24 @@
     color: white;
     width: 100%;
     text-align: center;
+    height: 40px;
+    
 }
 
 #footer a{
     text-decoration: none;
     color: white;
     font-size: larger;
+    
 }
 
 #footer a:hover{
     color: rgb(248, 55, 55);
+}
+
+.footer-text{
+    margin: 0 auto;
+    margin-top: 10px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -176,7 +186,7 @@
 
 .traits{
     margin-bottom: 20px;
-    padding: 10px;
+    padding: 0px;
 }
 }
 
@@ -189,11 +199,17 @@
       }
     
     .traits{
-        margin-bottom: 25px;
-        padding: 10px;
+        margin-bottom: 50px;
+        
     }
 
     #footer{
-        height: 30px;
+        height: 50px;
+        
+    }
+    .traits-content{
+        gap: 50px;
+        justify-content: center;
+        margin-bottom: 20px;
     }
 }
