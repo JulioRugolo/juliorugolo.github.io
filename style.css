@@ -190,7 +190,7 @@
 }
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 400px) {
 
     .header-name, .nav ul{
         font-size: 15px;
@@ -204,8 +204,7 @@
     }
 
     #footer{
-        height: 70px;
-        
+        height: 70px;        
     }
     .traits-content{
         gap: 50px;
