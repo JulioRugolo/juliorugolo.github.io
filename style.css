@@ -48,6 +48,29 @@
     text-align: center;
     margin: 0 auto;
     width: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(64, 64, 64);
+    color: white;
+    margin-bottom: 40px;
+}
+
+#contactCall{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: auto;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
 }
 
 .julio-img{
@@ -75,6 +98,56 @@
     font-weight: bolder;
     color: rgb(0, 0, 0);
 }
+#portfolio {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 0 auto;
+    height: 320px;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+#titlePortfolio {
+    font-size: 40px;
+    width: auto;
+    background-color: #992a3e;
+    color: white;
+    text-align: center;
+}
+
+#printPixel {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+    width: 230px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: black 5px solid;
+    border-radius: 20px;
+}
+#printEmDev {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+    width: 230px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: black 5px solid;
+    border-radius: 20px;
+}
+
+.printScreen{
+    margin: 10px;
+}
+#printPixel:hover {
+    width: 240px;
+}
+
+#printEmDev:hover {
+    width: 240px;
+}
 
 .social{
     margin-bottom: 20px;
@@ -89,35 +162,51 @@
 }
 
 .linkedin{
-    color: #0077b5
+    color: white;
 }
 
 .linkedin:hover{
     color: #004a72;
+    background-color: white;
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 50px;
 }
 
 .facebook{
-    color: #0077b5
+    color: white;
 }
 
 .facebook:hover{
     color: #004a72;
+    background-color: white;
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 50px;
 }
 
 .instagram{
-    color: #e4405f
+    color: white;
 }
 
 .instagram:hover{
     color: #992a3e;
+    background-color: white;
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 50px;
 }
 
 .github{
-    color: black
+    color: white;
 }
 
 .github:hover{
     color: rgb(144, 142, 142);
+    background-color: white;
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 50px;
 }
 
 .traits{
@@ -152,7 +241,7 @@
 #footer{
     position: fixed;
     bottom: 0px;
-    background-color: rgb(64, 64, 64);
+    background-color: #992a3e;
     color: white;
     width: 100%;
     text-align: center;
