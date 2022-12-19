@@ -203,5 +203,5 @@ function loadDraw() {
 loadDraw();
 
 window.onload = () => {
-colorPaleteBlack.className += ' selected';
+  colorPaleteBlack.className += ' selected';
 };
