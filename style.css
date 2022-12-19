@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+a:link, a:hover, a:visited, a:active {
+    text-decoration: none;
+}
+
 .header{
     display: flex;
     position: fixed;
@@ -102,11 +106,25 @@
     display: flex;
     flex-direction: row;
     text-align: center;
-    margin: 0 auto;
-    height: 320px;
-    padding-bottom: 20px;
+    width: 100%;
+    height: auto;
+  
     justify-content: center;
 }
+
+.titleProject {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 0;
+    text-align: center;
+    width: 55%;
+    padding-bottom: 20px;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 #titlePortfolio {
     font-size: 40px;
     width: auto;
@@ -115,38 +133,21 @@
     text-align: center;
 }
 
-#printPixel {
-    display: flex;
-    margin: auto;
-    width: 50%;
-    justify-content: center;
-    width: 230px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: black 5px solid;
-    border-radius: 20px;
-}
 #printEmDev {
     display: flex;
-    margin: auto;
-    width: 50%;
     justify-content: center;
-    width: 230px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px;
+    margin-bottom: 5px;
+    width: 20%;
     border: black 5px solid;
     border-radius: 20px;
 }
 
 .printScreen{
-    margin: 10px;
-}
-#printPixel:hover {
-    width: 240px;
-}
-
-#printEmDev:hover {
-    width: 240px;
+    display: flex;
+    flex-direction:row;
+    width: 50%;
+    justify-content: center;
 }
 
 .social{
@@ -299,5 +300,51 @@
         gap: 50px;
         justify-content: center;
         margin-bottom: 20px;
+    }
+
+    #portfolio {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 0;
+        width: 50%;
+    
+        justify-content: center;
+    }
+
+    #printEmDev {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        width: 70%;
+        border: black 2px solid;
+        border-radius: 20px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+    .printScreen {
+        height: auto;
+        margin: 1px;
+        border: 1px;
+    }
+    
+    .titleProject {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        margin-top: 0;
+        text-align: center;
+        width: 95%;
+        padding-bottom: 20px;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    #titlePortfolio {
+        font-size: 25px;
     }
 }
