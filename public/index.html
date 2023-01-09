@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio | Julio Rugolo, FullStack Student.">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Portfólio, Julio Rugolo">
+  <meta name="author" content="John Doe">
+  <title>Portfólio Julio Rugolo</title>
+  
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://kit.fontawesome.com/21261f0dc4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div>
+      <a class="header-name">Julio Rugolo</a>
+    </div>
+
+    <nav class="nav">
+      <ul>
+        <li><a class="nav-btn" href="#about">Sobre mim</a></li>
+        <li><a class="nav-btn" href="#portfolio">Portfólio</a></li>
+        <li><a class="nav-btn" href="#contact">Contato</a></li>
+        <li><a class="nav-btn" href="#container"><i class="fa-solid fa-user"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sobre -->
+  <section id="about">
+    <img class="julio-img" src="./img/julio-img.jpeg" alt="Julio Rugolo">
+    <h1 class="about-title">Julio Rugolo</h1>
+    <h4 class="about-subtitle">Publicitário e Dev</h4>
+    <p>Olá, me chamo Julio, tenho 31 anos, sou formado em publicidade e propaganda, porem após alguns anos atuando na
+      área optei por fazer a transição de carreira, no momento sou estudante de <strong>Desenvolvimento Web na
+        Trybe!</strong></p>
+  </section>
+  <div><h2 id="titlePortfolio">Portfólio</h2></div>
+  <section id="portfolio">
+    <div class="printScreen">
+      <a href="./pixel-art/index.html" target="_blank"><div id="pixel"><h3>Pixel's Art</h3></div></a>
+      <a href="./COlorGuess/index.html" target="_blank"><div id="color"><h3>ColorGuess</h3></div></a>
+      <!-- <img src="./img/desenvolvimento.png" alt="" id="printEmDev">
+      <img src="./img/desenvolvimento.png" alt="" id="printEmDev"> -->
+    </div>
+  </section> 
+  <section id="contact">
+    <p id="contactCall">Convido vocês para me conhecerem melhor atraves das minhas redes sociais!</p>
+    <div class="social">
+      <a class="link linkedin" href="https://www.linkedin.com/in/juliorugolo" target="_blank"><i
+          class="fa-brands fa-linkedin"></i></a>
+      <a class="link facebook" href="https://www.facebook.com/juliorugolo" target="_blank"><i
+          class="fa-brands fa-facebook"></i></a>
+      <a class="link instagram" href="https://www.instagram.com/juliorugolo/" target="_blank"><i
+          class="fa-brands fa-instagram"></i></a>
+      <a class="link github" href="https://github.com/juliorugolo" target="_blank"><i
+          class="fa-brands fa-github"></i></a>
+    </div>
+  </section>
+  <form action="" method="get" enctype="multipart/form-data" class="container" id="container">
+    <h1>Receba minha newsletter</h1>
+    <p>Nome Completo</p>
+    <label for="input-nome">
+        <input type="text" name="nome" id="input-nome" placeholder="Digite seu nome" required min="10"
+            max="40">
+    </label>
+
+    <p>E-mail</p>
+    <label for="input-email">
+        <input type="email" name="email" id="input-email" placeholder="Digite seu email" required min="10"
+            max="50">
+    </label>
+
+    <br>
+    <br>
+    <button type="submit" id="submit-button">Enviar informações</button>
+    <button type="reset" id="reset-button">Apagar formulário</button>
+</form>
+
+  <footer id="footer">
+    <div class="footer-text"><p>Desenvolvido por <a href="https://github.com/JulioRugolo">Julio Rugolo</a></p></div>
+  </footer>
+
+</body>
+
+</html>

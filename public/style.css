@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a:link, a:hover, a:visited, a:active {
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 20px;
+    background-color: rgb(64, 64, 64);
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.header-name{
+    display: flex;
+    color: white;
+    margin-left: 80px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.nav ul{
+    display: flex;
+    margin-right: 80px;
+    list-style: none;
+    gap: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.nav-btn{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-btn:hover{
+    color: rgb(248, 55, 55);
+}
+
+.fa-user{
+    color: white;
+}
+
+.fa-user:hover{
+    color:rgb(248, 55, 55);
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(64, 64, 64);
+    color: white;
+    margin-bottom: 40px;
+}
+
+#contactCall{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: auto;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+
+.julio-img{
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.about-title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+
+.about-subtitle{
+    font-weight: 800;
+    color: red;
+    margin-bottom: 30px;
+}
+
+
+#portfolio {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+#titlePortfolio {
+    font-size: 40px;
+    width: auto;
+    background-color: #992a3e;
+    color: white;
+    text-align: center;
+}
+
+
+.printScreen{
+    display: flex;
+    flex-direction:row;
+    width: 50%;
+    justify-content: center;
+}
+
+.printScreen div {
+    border: black solid 1px;
+    height: 200px;
+    width: 200px;
+    margin: 40px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.printScreen h3 {
+    margin-top: 80px;
+    font-size: 40px;
+    color: white;
+    text-shadow: black 3px 3px 10px;
+}
+
+#pixel {
+    background-image: url('./img/print.png');
+    background-size: cover;
+    opacity: 1;
+}
+
+#color {
+    background-image: url('./img/colorguess.png');
+    background-size: cover;
+    opacity: 1;
+}
+
+.social{
+    margin-bottom: 20px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.link{
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.linkedin{
+    color: white;
+}
+
+.linkedin:hover{
+    color: #004a72;
+    background-color: white;
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 50px;
+}
+
+.facebook{
+    color: white;
+}
+
+.facebook:hover{
+    color: #004a72;
+    background-color: white;
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 50px;
+}
+
+.instagram{
+    color: white;
+}
+
+.instagram:hover{
+    color: #992a3e;
+    background-color: white;
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 50px;
+}
+
+.github{
+    color: white;
+}
+
+.github:hover{
+    color: rgb(144, 142, 142);
+    background-color: white;
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 50px;
+}
+
+.container {
+    padding: 16px;
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.container h1 {
+text-align: center;
+margin-bottom: 30px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=email] {
+width: 100%;
+padding: 15px;
+margin: 5px 0 22px 0;
+display: inline-block;
+border: none;
+background: #f1f1f1;
+;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+background-color: #ddd;
+outline: none;
+}
+
+label {
+    padding-right: 20px;
+    
+}
+
+/* Overwrite default styles of hr */
+hr {
+border: 1px solid #f1f1f1;
+margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+#submit-button {
+background-color:#992a3e;
+color: white;
+font-size: larger;
+padding: 16px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+opacity: 0.9;
+}
+
+#submit-button:hover {
+opacity:1;
+}
+
+#reset-button {
+    background-color: #666666;
+    font-size: larger;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+#reset-button:hover {
+    opacity:1;
+}
+
+
+#footer{
+    position: fixed;
+    bottom: 0px;
+    background-color: #992a3e;
+    color: white;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    
+}
+    
+#footer a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    
+}
+
+#footer a:hover{
+    color: rgb(248, 55, 55);
+}
+
+.footer-text{
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #992a3e;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+
+.header-name, .nav ul{
+    font-size: 15px;
+    margin-left: 10px; 
+    margin-right: 30px;
+  }
+
+  .printScreen{
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+ #pixel, #color {
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .header-name, .nav ul{
+        font-size: 15px;
+        margin-left: 5px; 
+        margin-right: 30px;
+    }
+
+    #footer{
+        height: 50px;        
+    }
+
+    #portfolio {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 0;
+        padding-top: 20px;
+        width: 70%;
+        justify-content: center;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    .printScreen {
+        width: 100%;
+        height: auto;
+        margin: 1px;
+        border: 1px;
+    }
+
+    #titlePortfolio {
+        font-size: 25px;
+    }
+}
